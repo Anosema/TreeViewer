@@ -98,7 +98,6 @@ class Knot():
 
 	def clearChildren(self):
 		self.label.setParent(None)
-		# del self.label
 		if self.left: self.left.clearChildren()
 		if self.right: self.right.clearChildren()
 
