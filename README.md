@@ -33,6 +33,9 @@ Now that we've seen this, let's talk about shortcuts:
 
 That's pretty all, if you encounter any issues, please report it in the issues of the [Github project](https://github.com/Anosema/TreeViewer/issues)
 
+_____
+_____
+
 ## FR
 ### Presentation
 Ce script python permets de visualiser un arbre binaire et de le modifier.
