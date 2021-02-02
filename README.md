@@ -16,12 +16,14 @@ You also have two buttons. The remove button will simply delete the knot and eve
 If you choose a name already used, you will have to choose between transfering the parentage or simply cancel. If you choose to transferthe parentage, the knot will be passed to the side of the selected knot with it's children.
 _____
 Notes:
-	- The name of a new knot should be one or two characters long, if not it will simply be cut when showed in the tree.
-	- You can't remove the "A" knot, it's the root of the tree, it'll throw an error.
-	- You can't add a child to a knot who already has two children, it'll throw an error.
-	- You may encounter some issues with the borders : if you tree is too tall, a part of the extreme left and extreme knots will be hidden by the border.
+
+- The name of a new knot should be one or two characters long, if not it will simply be cut when showed in the tree.
+- You can't remove the "A" knot, it's the root of the tree, it'll throw an error.
+- You can't add a child to a knot who already has two children, it'll throw an error.
+- You may encounter some issues with the borders : if you tree is too tall, a part of the extreme left and extreme knots will be hidden by the border.
 _____
-Now that we've seen this, let's talk about shortcuts.
+Now that we've seen this, let's talk about shortcuts:
+
 - Z will select the parent of the currently selected knot.
 - Q will select the nearest knot on the left of the currently selected knot.
 - D will select the nearest knot on the right of the currently selected knot.
