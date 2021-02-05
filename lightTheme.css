@@ -1,0 +1,276 @@
+#Layer1{
+	background: rgb(200, 200, 200);
+	border: 3px solid rgb(195, 195, 195);
+	color: rgb(18, 19, 20);
+}
+QLabel#Layer1, QPushButton#Layer1, QLineEdit#Layer1{
+	background: rgb(207, 207, 207);
+	border: 2px solid rgb(202, 202, 202);
+}
+QPushButton#Layer1:hover, QLineEdit#Layer1:hover{
+	background: rgb(209, 209, 209);
+	border: 2px solid rgb(204, 204, 204);
+}
+QPushButton#Layer1:focus, QLineEdit#Layer1:focus{
+	background: rgb(214, 214, 214);
+	border: 0px;
+}
+QPushButton#Layer1:pressed{
+	background: rgb(205, 205, 205);
+	border: 2px inset rgb(200, 200, 200);
+}
+#Layer1 > QToolTip{
+	background: rgb(214, 214, 214);
+	border: 2px solid rgb(209, 209, 209);
+	color: rgb(18, 19, 20);
+}
+#Layer1NoBG{
+	background: rgb(200, 200, 200);
+	border: 0px;
+	color: rgb(18, 19, 20);
+}
+QLabel#Layer1NoBG, QPushButton#Layer1NoBG, QLineEdit#Layer1NoBG{
+	background: rgb(200, 200, 200);
+	border: 0px;
+}
+QPushButton#Layer1NoBG:hover, QLineEdit#Layer1NoBG:hover{
+	background: rgb(200, 200, 200);
+	border: 0px;
+}
+QPushButton#Layer1NoBG:focus, QLineEdit#Layer1NoBG:focus{
+	background: rgb(200, 200, 200);
+	border: 0px;
+}
+QPushButton#Layer1NoBG:pressed{
+	background: rgb(200, 200, 200);
+	border: 0px;
+}
+#Layer1NoBG > QToolTip{
+	background: rgb(214, 214, 214);
+	border: 2px solid rgb(209, 209, 209);
+	color: rgb(18, 19, 20);
+}
+
+
+#Layer2{
+	background: rgb(207, 207, 207);
+	border: 3px solid rgb(202, 202, 202);
+	color: rgb(18, 19, 20);
+}
+QLabel#Layer2, QPushButton#Layer2, QLineEdit#Layer2{
+	background: rgb(214, 214, 214);
+	border: 2px solid rgb(209, 209, 209);
+}
+QPushButton#Layer2:hover, QLineEdit#Layer2:hover{
+	background: rgb(216, 216, 216);
+	border: 2px solid rgb(211, 211, 211);
+	color: rgb(20, 21, 22);
+}
+QPushButton#Layer2:focus, QLineEdit#Layer2:focus{
+	background: rgb(221, 221, 221);
+	border: 0px;
+}
+QPushButton#Layer2:pressed{
+	background: rgb(212, 212, 212);
+	border: 2px inset rgb(207, 207, 207);
+}
+#Layer2 > QToolTip{
+	background: rgb(221, 221, 221);
+	border: 2px solid rgb(216, 216, 216);
+	color: rgb(18, 19, 20);
+}
+#Layer2NoBG{
+	background: rgb(207, 207, 207);
+	border: 0px;
+	color: rgb(18, 19, 20);
+}
+QLabel#Layer2NoBG, QPushButton#Layer2NoBG, QLineEdit#Layer2NoBG{
+	background: rgb(207, 207, 207);
+	border: 0px;
+}
+QPushButton#Layer2NoBG:hover, QLineEdit#Layer2NoBG:hover{
+	background: rgb(207, 207, 207);
+	border: 0px;
+	color: rgb(20, 21, 22);
+}
+QPushButton#Layer2NoBG:focus, QLineEdit#Layer2NoBG:focus{
+	background: rgb(207, 207, 207);
+	border: 0px;
+}
+QPushButton#Layer2NoBG:pressed{
+	background: rgb(207, 207, 207);
+	border: 0px;
+}
+#Layer2NoBG > QToolTip{
+	background: rgb(221, 221, 221);
+	border: 2px solid rgb(216, 216, 216);
+	color: rgb(18, 19, 20);
+}
+
+
+#Layer3{
+	background: rgb(214, 214, 214);
+	border: 3px solid rgb(209, 209, 209);
+	color: rgb(18, 19, 20);
+}
+QLabel#Layer3, QPushButton#Layer3, QLineEdit#Layer3{
+	background: rgb(221, 221, 221);
+	border: 2px solid rgb(212, 212, 212);
+}
+QPushButton#Layer3:hover, QLineEdit#Layer3:hover{
+	background: rgb(223, 223, 223);
+	border: 2px solid rgb(214, 214, 214);
+	color: rgb(20, 21, 22);
+}
+QPushButton#Layer3:focus, QLineEdit#Layer3:focus{
+	background: rgb(228, 228, 228);
+	border: 0px;
+}
+QPushButton#Layer3:pressed{
+	background: rgb(219, 219, 219);
+	border: 2px inset rgb(214, 214, 214);
+}
+#Layer3 > QToolTip{
+	background: rgb(228, 228, 228);
+	border: 2px solid rgb(223, 223, 223);
+	color: rgb(18, 19, 20);
+}
+#Layer3#NoBG{
+	background: rgb(214, 214, 214);
+	border: 0px;
+	color: rgb(18, 19, 20);
+}
+QLabel#Layer3NoBG, QPushButton#Layer3NoBG, QLineEdit#Layer3NoBG{
+	background: rgb(214, 214, 214);
+	border: 0px;
+}
+QPushButton#Layer3NoBG:hover, QLineEdit#Layer3NoBG:hover{
+	background: rgb(214, 214, 214);
+	border: 0px;
+	color: rgb(20, 21, 22);
+}
+QPushButton#Layer3NoBG:focus, QLineEdit#Layer3NoBG:focus{
+	background: rgb(214, 214, 214);
+	border: 0px;
+}
+QPushButton#Layer3NoBG:pressed{
+	background: rgb(214, 214, 214);
+	border: 0px;
+}
+#Layer3NoBG > QToolTip{
+	background: rgb(228, 228, 228);
+	border: 2px solid rgb(223, 223, 223);
+	color: rgb(18, 19, 20);
+}
+
+
+#Layer4{
+	background: rgb(221, 221, 221);
+	border: 3px solid rgb(216, 216, 216);
+	color: rgb(18, 19, 20);
+}
+QLabel#Layer4, QPushButton#Layer4, QLineEdit#Layer4{
+	background: rgb(228, 228, 228);
+	border: 2px solid rgb(223, 223, 223);
+}
+QPushButton#Layer4:hover, QLineEdit#Layer4:hover{
+	background: rgb(230, 230, 230);
+	border: 2px solid rgb(48, 48, 48);
+	color: rgb(20, 21, 22);
+}
+QPushButton#Layer4:focus, QLineEdit#Layer4:focus{
+	background: rgb(235, 235, 235);
+	border: 0px;
+}
+QPushButton#Layer4:pressed{
+	background: rgb(226, 226, 226);
+	border: 2px inset rgb(221, 221, 221);
+}
+#Layer4 > QToolTip{
+	background: rgb(235, 235, 235);
+	border: 2px solid rgb(230, 230, 230);
+	color: rgb(18, 19, 20);
+}
+#Layer4NoBG{
+	background: rgb(221, 221, 221);
+	border: 0px;
+	color: rgb(18, 19, 20);
+}
+QLabel#Layer4NoBG, QPushButton#Layer4NoBG, QLineEdit#Layer4NoBG{
+	background: rgb(221, 221, 221);
+	border: 0px;
+}
+QPushButton#Layer4NoBG:hover, QLineEdit#Layer4NoBG:hover{
+	background: rgb(221, 221, 221);
+	border: 0px;
+	color: rgb(20, 21, 22);
+}
+QPushButton#Layer4NoBG:focus, QLineEdit#Layer4NoBG:focus{
+	background: rgb(221, 221, 221);
+	border: 0px;
+}
+QPushButton#Layer4NoBG:pressed{
+	background: rgb(221, 221, 221);
+	border: 0px;
+}
+#Layer4NoBG > QToolTip{
+	background: rgb(235, 235, 235);
+	border: 2px solid rgb(230, 230, 230);
+	color: rgb(18, 19, 20);
+}
+
+
+#Layer5{
+	background: rgb(228, 228, 228);
+	border: 3px solid rgb(223, 223, 223);
+	color: rgb(18, 19, 20);
+}
+QLabel#Layer5, QPushButton#Layer5, QLineEdit#Layer5{
+	background: rgb(235, 235, 235);
+	border: 2px solid rgb(230, 230, 230);
+}
+QPushButton#Layer5:hover, QLineEdit#Layer5:hover{
+	background: rgb(237, 237, 237);
+	border: 2px solid rgb(232, 232, 232);
+	color: rgb(20, 21, 22);
+}
+QPushButton#Layer5:focus, QLineEdit#Layer5:focus{
+	background: rgb(242, 242, 242);
+	border: 0px;
+}
+QPushButton#Layer5:pressed{
+	background: rgb(233, 233, 233);
+	border: 2px inset rgb(228, 228, 228);
+}
+#Layer5 > QToolTip{
+	background: rgb(242, 242, 242);
+	border: 2px solid rgb(237, 237, 237);
+	color: rgb(18, 19, 20);
+}
+#Layer5NoBG{
+	background: rgb(228, 228, 228);
+	border: 0px;
+	color: rgb(18, 19, 20);
+}
+QLabel#Layer5NoBG, QPushButton#Layer5NoBG, QLineEdit#Layer5NoBG{
+	background: rgb(228, 228, 228);
+	border: 0px;
+}
+QPushButton#Layer5NoBG:hover, QLineEdit#Layer5NoBG:hover{
+	background: rgb(228, 228, 228);
+	border: 0px;
+	color: rgb(20, 21, 22);
+}
+QPushButton#Layer5NoBG:focus, QLineEdit#Layer5NoBG:focus{
+	background: rgb(228, 228, 228);
+	border: 0px;
+}
+QPushButton#Layer5NoBG:pressed{
+	background: rgb(228, 228, 228);
+	border: 0px;
+}
+#Layer5NoBG > QToolTip{
+	background: rgb(242, 242, 242);
+	border: 2px solid rgb(237, 237, 237);
+	color: rgb(18, 19, 20);
+}

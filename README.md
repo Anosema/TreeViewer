@@ -1,5 +1,6 @@
 # Tree Viewer
 Project by Anosema 29/01/2021
+
 ## EN
 ### Presentation
 This python script allows you to visualize a binary tree and modify it.
@@ -73,8 +74,8 @@ C'est à peu près tout, si vous rencontrez un quelconque problème, merci de le
 
 
 ## RoadMap
-- [0  %] -> Save as JSON 
-- [0  %] -> Search Visualization
 - [0  %] -> Sorted Binary Tree
-- [0  %] -> Random Tree Generation
 - [0  %] -> Switch Tree Mode
+- [0  %] -> Random Tree Generation
+- [0  %] -> Save as JSON
+- [0  %] -> Search Visualization
