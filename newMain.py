@@ -346,13 +346,16 @@ class MainWindow(QMainWindow):
 
 	def deleteKnot(self):
 		if self.entryRemoveKnot.text():
-			if not self.removeThread:
-				self.buttonRemoveKnot.setIcon(QApplication.style().standardIcon(QStyle.SP_DialogDiscardButton))
-				self.removeThread = visualRemoveThread(self, int(self.entryRemoveKnot.text()))
-				self.removeThread.finished.connect(self.deleteRemoveThread)
-				self.removeThread.start()
+			if int(self.entryRemoveKnot.text()) != self.rootTree.value:
+				if not self.removeThread:
+					self.buttonRemoveKnot.setIcon(QApplication.style().standardIcon(QStyle.SP_DialogDiscardButton))
+					self.removeThread = visualRemoveThread(self, int(self.entryRemoveKnot.text()))
+					self.removeThread.finished.connect(self.deleteRemoveThread)
+					self.removeThread.start()
+				else:
+					self.deleteRemoveThread()
 			else:
-				self.deleteRemoveThread()
+				self.showError("You can't remove the root", "Deletion Error")
 		else:
 			self.showError("You have to enter a valid value to remove", "Deletion Error")
 
@@ -485,8 +488,8 @@ class MainWindow(QMainWindow):
 
 app = QApplication(argv)
 mainwindow = MainWindow()
-# with open("darkTheme.css", "r") as file: mainwindow.setStyleSheet(file.read())
-with open("lightTheme.css", "r") as file: mainwindow.setStyleSheet(file.read())
+with open("darkTheme.css", "r") as file: mainwindow.setStyleSheet(file.read())
+# with open("lightTheme.css", "r") as file: mainwindow.setStyleSheet(file.read())
 mainwindow.showMaximized()
 
 exit(app.exec_())
